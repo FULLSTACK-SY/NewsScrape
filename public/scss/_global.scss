@@ -1,0 +1,55 @@
+a {
+  color: $black;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $black;
+  }
+}
+
+body {
+  @include body-font;
+  color: $black;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.btn {
+  background-color: $primary;
+  border-color: $primary;
+  border-radius: 0 !important;
+  color: white;
+
+  &:hover,
+  &:active {
+    background-color: darken($primary, 15%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(14, 45, 78, 0.25)
+  }
+}
+
+#scrape:hover {
+  cursor: pointer;
+}
+
+.close { 
+    opacity: 1;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #3f74ad;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(58, 110, 165, 0.25);
+}
