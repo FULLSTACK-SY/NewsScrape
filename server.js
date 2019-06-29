@@ -45,6 +45,7 @@ app.engine(
     extname: '.hbs',
     defaultLayout: 'main',
     partialsDir: __dirname + '/views/partials',
+
     // if else helper used to check which page gets the 'active' tab class in the nav bar
     helpers: {
       ifEquals: function(arg1, arg2, options) {
