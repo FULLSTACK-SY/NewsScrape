@@ -39,6 +39,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "4.0.1",
     "gulp-uglify": "3.0.0",
+    "install-peers": "^1.0.3",
     "pump": "^3.0.0"
   }
 }

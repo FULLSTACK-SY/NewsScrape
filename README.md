@@ -17,10 +17,5 @@ This app uses the axios and cheerio NPM packages to scrape news articles, and Mo
 
 ## Download and Installation
 
-If you want to install this on your local machine, first install all modules with `npm i`.
-
-This application uses gulp for task automation as well as running a live server. Once all dependencies are installed you can easily get the Bootstrap and jQuery source files by running `gulp getfiles`. This will create a directory in public called vendor, and it will store the Bootstrap and jQuery core files. It will then automatically move the needed files from `./public/vendor` to `./public/js` & `./public/css`. Once Bootstrap and jQuery files are moved the vendor directory can be deleted.
-
-The live server is set as the default gulp task. To run the server first start `mongod` from the terminal, and then execute the `gulp` command. This starts up browser-sync, which auto-reloads the browser on any html and css change, as well as re-starts the node server upon any change to a .js file.
-
-Once gulp is watching for changes it will automatically run the tasks to compile scss down to css, as well as minify the js and css files.
+If you want to install this on your local machine copy folder and give CLI :
+ `npm i`
