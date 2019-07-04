@@ -1,7 +1,7 @@
 {
   "name": "news-scrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "This app uses the axios and cheerio NPM packages to scrape news articles, and Mongoose to create models for easy use with MongoDB.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -41,5 +41,13 @@
     "gulp-uglify": "3.0.0",
     "install-peers": "^1.0.3",
     "pump": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FULLSTACK-SY/NewsScrape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FULLSTACK-SY/NewsScrape/issues"
+  },
+  "homepage": "https://github.com/FULLSTACK-SY/NewsScrape#readme"
 }
